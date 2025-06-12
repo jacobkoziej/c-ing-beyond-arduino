@@ -1,0 +1,61 @@
+[formatter.mdformat]
+command = "mdformat"
+includes = [
+  "*.md",
+]
+
+[formatter.nix]
+command = "nix"
+options = [
+  "fmt",
+]
+includes = [
+  "*.nix",
+]
+
+[formatter.shfmt]
+command = "shfmt"
+options = [
+  "--write",
+]
+includes = [
+  "*.sh",
+  ".envrc",
+]
+
+[formatter.toml-sort]
+command = "toml-sort"
+includes = [
+  "*.toml",
+]
+
+[formatter.typstyle]
+command = "typstyle"
+options = [
+  "--inplace",
+]
+includes = [
+  "*.typ",
+]
+
+[formatter.yamlfmt]
+command = "yamlfmt"
+includes = [
+  "*.yaml",
+  "*.yml",
+]
+
+[formatter.yamllint]
+command = "yamllint"
+includes = [
+  "*.yaml",
+  "*.yml",
+]
+
+[global]
+excludes = [
+  "*.gitignore",
+  "*.lock",
+  ".editorconfig",
+  "LICENSE",
+]
