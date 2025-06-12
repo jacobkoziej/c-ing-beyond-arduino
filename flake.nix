@@ -40,6 +40,7 @@
               statix
               toml-sort
               treefmt
+              typst
               typstyle
               yamlfmt
               yamllint

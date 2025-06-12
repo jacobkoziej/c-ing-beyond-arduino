@@ -8,3 +8,7 @@ project(
     'warning_level=everything',
   ],
 )
+
+typst = find_program('typst')
+
+subdir('src')
