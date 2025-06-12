@@ -33,6 +33,8 @@
               typstyle
               commitlint-rs
               mdformat
+              meson
+              ninja
               pre-commit
               shfmt
               statix

@@ -54,6 +54,7 @@ includes = [
 
 [global]
 excludes = [
+  "*.build",
   "*.gitignore",
   "*.lock",
   ".editorconfig",
