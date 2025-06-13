@@ -9,6 +9,7 @@ project(
   ],
 )
 
+git = find_program('git')
 typst = find_program('typst')
 
 subdir('src')

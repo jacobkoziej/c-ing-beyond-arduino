@@ -31,6 +31,7 @@
           {
             packages = with pkgs; [
               commitlint-rs
+              git
               mdformat
               meson
               ninja
