@@ -2,11 +2,7 @@
 //
 // Copyright (C) 2025  Jacob Koziej <jacobkoziej@gmail.com>
 
-#import sys.inputs.build_dir + "version.typ": version
-
-#let title = [C-ing Beyond Arduino]
-#let author = "Jacob Koziej"
-#let description = [Making the Jump to Advanced Embedded Programming]
+#import "metadata.typ": author, description, title
 
 #set document(
   title: title,
