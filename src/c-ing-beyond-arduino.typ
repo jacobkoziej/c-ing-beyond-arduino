@@ -2,10 +2,14 @@
 //
 // Copyright (C) 2025  Jacob Koziej <jacobkoziej@gmail.com>
 
+#let title = [C-ing Beyond Arduino]
+#let author = "Jacob Koziej"
+#let description = [Making the Jump to Advanced Embedded Programming]
+
 #set document(
-  title: [C-ing Beyond Arduino],
-  author: "Jacob Koziej",
-  description: [Making the Jump to Advanced Embedded Programming],
+  title: title,
+  author: author,
+  description: description,
   date: none,
 )
 
