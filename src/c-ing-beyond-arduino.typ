@@ -11,5 +11,5 @@
   date: none,
 )
 
-#set page(paper: "iso-b4")
+#set page(paper: "iso-b5")
 #set par(justify: true)
