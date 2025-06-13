@@ -30,7 +30,6 @@
           in
           {
             packages = with pkgs; [
-              typstyle
               commitlint-rs
               mdformat
               meson
