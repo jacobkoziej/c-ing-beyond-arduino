@@ -10,3 +10,4 @@
 )
 
 #set page(paper: "iso-b4")
+#set par(justify: true)
