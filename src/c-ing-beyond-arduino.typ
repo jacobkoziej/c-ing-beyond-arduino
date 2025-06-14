@@ -13,3 +13,5 @@
 
 #set page(paper: "iso-b5")
 #set par(justify: true)
+
+#include "title.typ"
