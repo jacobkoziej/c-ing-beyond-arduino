@@ -9,3 +9,4 @@
 #let title = [C-ing Beyond Arduino]
 #let author = "Jacob Koziej"
 #let description = [Making the Jump to Advanced Embedded Programming]
+#let email = "jacobkoziej@gmail.com"

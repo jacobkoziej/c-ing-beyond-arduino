@@ -15,3 +15,4 @@
 #set par(justify: true)
 
 #include "title.typ"
+#include "copyright.typ"
